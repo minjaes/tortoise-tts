@@ -4,7 +4,7 @@ with open("README.md", "r", encoding="utf-8") as fh:
     long_description = fh.read()
 
 setuptools.setup(
-    name="tortoise-tts",
+    name="tortoise",
     packages=setuptools.find_packages(),
     version="3.0.0",
     author="James Betker",
